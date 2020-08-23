@@ -8,6 +8,7 @@ public class JokeServiceImpl implements JokeService {
 
     private final ChuckNorrisQuotes chuckNorrisQuotes;
 
+    //Common to Java and XML Based Configuration
     public JokeServiceImpl(ChuckNorrisQuotes chuckNorrisQuotes) {
         this.chuckNorrisQuotes = chuckNorrisQuotes;
     }
